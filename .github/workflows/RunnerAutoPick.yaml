@@ -1,0 +1,10 @@
+name: EKS Runner Test
+
+on: [ workflow_dispatch ]
+
+jobs:
+  test:
+    runs-on: [self-hosted]
+    steps:
+      - run: echo "Hello from Kubernetes Pod Runner!"
+#✅ It will automatically pick a runner pod, execute, and release it.
