@@ -7,4 +7,4 @@ spec:
   replicas: 5
   template:
     spec:
-      repository: k8s-soham/Self-hosted-runner-on-eks
+      repository: akshaykam/Self-hosted_Runner_OnEKS
