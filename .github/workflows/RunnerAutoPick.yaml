@@ -7,4 +7,4 @@ jobs:
     runs-on: [self-hosted]
     steps:
       - run: echo "Hello from Kubernetes Pod Runner!"
-#✅ It will automatically pick a runner pod, execute, and release it.
+#✅ It will automatically pick a runner pod, execute, and release it. for each new workflow run new pod selected from runners list
